@@ -16,7 +16,7 @@
     <!-- My Style -->
     <link rel="stylesheet" href="styles/style.css">
 
-    <link rel="icon" type="image/x-icon" href="/assets/image/Logo_UIR-cdr.ico">
+    <link rel="icon" type="image/x-icon" href="/assets/image/slack.svg">
 
 </head>
 
@@ -39,9 +39,47 @@
                 <a href="#" id="shopping-cart-btn"><i data-feather="shopping-cart"></i></a>
                 <a id="menu-btn"><i data-feather="menu"></i></a>
             </div>
+
+        <!-- Search Form start -->
+        <div class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box"><i data-feather="search"></i></label>
+        </div>
+        <!-- Search Form end -->
+
+        <!-- Shopping Cart start -->
+        <div class="shopping-cart">
+        <div class="cart-item">
+            <img src="assets/image/donut-product.jpg" alt="Donat">
+            <div class="item-detail">
+                <h3>Donat</h3>
+            <div class="item-price">IDR 25K</div>
+            </div>
+            <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+        <div class="cart-item">
+            <img src="assets/image/bread-product.jpg" alt="Roti">
+            <div class="item-detail">
+                <h3>Roti</h3>
+            <div class="item-price">IDR 30K</div>
+            </div>
+            <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+        <div class="cart-item">
+            <img src="assets/image/cakes-product.jpg" alt="Kue">
+            <div class="item-detail">
+                <h3>Kue</h3>
+            <div class="item-price">IDR 45K</div>
+            </div>
+            <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+        </div>
+        <!-- Shopping Cart end -->
+
         </nav>
         <!-- Navbar End -->
     </header>
+
 
     <main>
         <div id="content">
@@ -205,9 +243,26 @@
         </div>
     </main>
 
+    <!-- Footer start -->
     <footer>
-        <p>created by <span>Muhammad Ramdan</span> | All Rights</p>
-    </footer>
+    <div class="socials">
+      <a href="https://www.instagram.com/ramdannn.17?igsh=bXdrMnI0bHpmb3B0"><i data-feather="instagram"></i></a>
+      <a href="https://www.linkedin.com/in/muhammad-ramdan-790531290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i data-feather="linkedin"></i></a>
+      <a href="https://github.com/Ramdanskuy"><i data-feather="github"></i></a>
+    </div>
+
+    <div class="links">
+      <a href="#home">Home</a>
+      <a href="#about">Tentang Kami</a>
+      <a href="#menu">Menu</a>
+      <a href="#contact">Kontak</a>
+    </div>
+
+    <div class="credit">
+      <p>Created by <a href="">muhammadramdan</a>. | &copy; 2023.</p>
+    </div>
+  </footer>
+  <!-- Footer end -->
 
     <!-- Feather Icons -->
     <script>
@@ -215,7 +270,6 @@
     </script>
 
     <!-- Javascript -->
-    <script src="js/script.js">
-</script>
+    <script src="js/script.js"></script>
 </body>
 </html>
